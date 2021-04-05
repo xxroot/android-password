@@ -90,10 +90,17 @@ NOTE: when lock screen is set, all commands require the --old <CREDENTIAL> argum
 改变密码：
 
 locksettings set-pin --old xxxx xxxx
+
 Example: locksettings set-pin --old 0000 8888
+
+
 locksettings set-password --old xxxx xxxx
+
 Example: locksettings set-password --old currentpassword newpassword
+
+
 locksettings set-pattern --old xxxx xxxx
+
 Example: locksettings set-pattern --old 1456 6987
 清除密码:
 locksettings clear --old xxxx
